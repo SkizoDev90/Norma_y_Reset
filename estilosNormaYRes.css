@@ -1,0 +1,67 @@
+/*Ejemplo de reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Ejemplo de Normalizar*/
+body {
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button, input, textarea, select {
+    
+    border: none;
+}
+
+header {
+    background-color: #0078ff;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    padding: 15px;
+    background-color: white;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+/*Estos son ya los estilos*/
+button {
+    background-color: #0078ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005ecb;
+}
+
