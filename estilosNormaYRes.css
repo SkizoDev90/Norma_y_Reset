@@ -1,34 +1,33 @@
 /*Ejemplo de reset*/
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;             /*Quita el margin y el paddig y hace que el contenido sea el total y los border y padding afecten al espacio del contenido*/
     box-sizing: border-box;
 }
 /*Ejemplo de Normalizar*/
 body {
     font-size: 16px;
-    background-color: #f9f9f9;
+    background-color: #f9f9f9;  /*Le doy tamaño especifico a la letra*/
 }
 ul, ol {
-    list-style: none;
+    list-style: none;       /*hago que no tengan estilo ni los ul ni ol*/
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;      /*los a no tendran ni el subrayado ni el color azul*/
     color: inherit;
 }
 
 button, input, textarea, select {
     
-    border: none;
+    border: none;               /*Quito el borde*/
 }
-
+/*Estos son ya los estilos*/
 header {
     background-color: #0078ff;
     color: white;
     padding: 10px;
 }
-
 main {
     padding: 15px;
     background-color: white;
@@ -52,7 +51,7 @@ input, textarea {
     border: 1px solid #ccc;
     margin-bottom: 10px;
 }
-/*Estos son ya los estilos*/
+
 button {
     background-color: #0078ff;
     color: white;
